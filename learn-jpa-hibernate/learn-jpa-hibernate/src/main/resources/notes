@@ -1,0 +1,15 @@
+create table course
+(
+ id bigint not null,
+ name varchar(255) not null,
+ authour varchar(255),
+ primary key (id)
+);
+
+insert into course(id,name,author)
+values(1,'aws','srikanth_sofsol');
+
+
+select * from course;
+
+delete from course;
